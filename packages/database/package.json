@@ -1,0 +1,13 @@
+{
+  "name": "@manager-leader-ia/database",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:migrate:dev": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "devDependencies": {
+    "prisma": "^5.12.0"
+  }
+}

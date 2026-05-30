@@ -1,0 +1,16 @@
+{
+  "name": "@manager-leader-ia/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@prisma/client": "^5.12.0",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
