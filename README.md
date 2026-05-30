@@ -23,7 +23,7 @@ Este repositório contém o scaffold inicial do projeto, com:
 - backend NestJS inicial (`apps/api`)
 - schema Prisma e `packages/database`
 - autenticação básica de usuário com cadastro e login via API
-- páginas iniciais de `login` e `signup`
+- páginas iniciais de `login`, `signup`, `leads` e `crm`
 
 Ainda em desenvolvimento:
 
