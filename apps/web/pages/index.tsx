@@ -18,6 +18,9 @@ export default function Home() {
         <Link href="/crm" style={{ padding: '0.75rem 1rem', background: '#f59e0b', color: '#fff', borderRadius: '0.5rem', textDecoration: 'none' }}>
           CRM
         </Link>
+        <Link href="/copywriter" style={{ padding: '0.75rem 1rem', background: '#0f766e', color: '#fff', borderRadius: '0.5rem', textDecoration: 'none' }}>
+          IA Copywriter
+        </Link>
       </div>
     </main>
   )

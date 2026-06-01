@@ -23,7 +23,7 @@ Este repositório contém o scaffold inicial do projeto, com:
 - backend NestJS inicial (`apps/api`)
 - schema Prisma e `packages/database`
 - autenticação básica de usuário com cadastro e login via API
-- páginas iniciais de `login`, `signup`, `leads` e `crm`
+- páginas iniciais de `login`, `signup`, `leads`, `crm` e `copywriter`
 
 Ainda em desenvolvimento:
 
@@ -39,6 +39,7 @@ Ainda em desenvolvimento:
 ```bash
 cd "C:\Users\Ediney\Documents\Manager Leader IA"
 npm install
+npm --workspace apps/api run dev
 npm --workspace apps/web run dev
 ```
 
