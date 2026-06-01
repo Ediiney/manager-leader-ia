@@ -43,3 +43,13 @@ npm --workspace apps/web run dev
 ```
 
 Em seguida acesse `http://localhost:3000`.
+
+### API backend
+
+Para iniciar a API NestJS em paralelo:
+
+```bash
+npm --workspace apps/api run dev
+```
+
+A API será executada em `http://localhost:3333`.

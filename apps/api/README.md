@@ -1,15 +1,24 @@
 # API (NestJS)
 
-Este diretório conterá a API backend (NestJS) e integrações com Prisma.
+Este diretório contém a API backend (NestJS) e integrações com Prisma.
 
 Passos recomendados:
 
-1. Instalar dependências:
+1. Instalar dependências no workspace:
 
 ```bash
-pnpm install
+npm install
 ```
 
-2. Conectar com `DATABASE_URL` e usar `@prisma/client` para acessar o banco.
+2. Iniciar a API em desenvolvimento:
 
-3. Implementar endpoints de autenticação JWT que consultem a tabela `User` gerada pelo Prisma.
+```bash
+npm --workspace apps/api run dev
+```
+
+3. Usar endpoints:
+
+- `GET http://localhost:3333/` — status da API
+- `GET http://localhost:3333/leads/search?q=Dentistas` — busca de leads de exemplo
+
+4. Conectar com `DATABASE_URL` e usar `@prisma/client` para persistência.
